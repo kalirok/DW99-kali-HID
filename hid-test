@@ -1,0 +1,19 @@
+ # 创建鼠标报告描述符
+    mkdir -p /config/usb_gadget/g1/functions/hid.usb1
+    echo 2 > /config/usb_gadget/g1/functions/hid.usb1/protocol
+    echo 4 > /config/usb_gadget/g1/functions/hid.usb1/report_length
+    echo -ne "\x05\x01\x09\x02\xa1\x01\x09\x01\xa1\x00\x05\x09\x19\x01\x29\x03\x15\x00\x25\x01\x95\x03\x75\x01\x81\x02\x95\x01\x75\x05\x81\x03\x05\x01\x09\x30\x09\x31\x15\x81\x25\x7f\x75\x08\x95\x02\x81\x06\xc0\xc0" > /config/usb_gadget/g1/functions/hid.usb1/report_desc
+    ln -s /config/usb_gadget/g1/functions/hid.usb1 /config/usb_gadget/g1/configs/b.1
+    
+    # 发送鼠标移动
+    DX=$2
+    DY=$3
+    echo -ne "\x00\x${DX}\x${DY}\x00" > /dev/hidg1
+    ui_print "Mouse moved: dx=$DX, dy=$DY"
+    ;;
+    
+  *)
+    ui_print "Invalid command"
+    ui_print "Available commands: key, text, mouse"
+    ;;
+esac

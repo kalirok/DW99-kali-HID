@@ -1,0 +1,7 @@
+id=hid-kali-watch
+name=HID kali watch
+version=1.7.2bet.pro
+author=白@key3993053612
+description=启用dw99内核不支持的HID，使用HID攻击，成为kali渗透利器.（注：由于此模块是在dw99内编译，其它机型待测）
+minMagisk=24000
+upgrade=
