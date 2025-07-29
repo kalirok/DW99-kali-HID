@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=2024年 10月 16日 星期三 18:06:49 CST
+ro.bootimage.build.date.utc=1729073209
+ro.bootimage.build.fingerprint=SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/42318:user/release-keys
+persist.sys.usb.config=none
