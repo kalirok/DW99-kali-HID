@@ -1,6 +1,11 @@
 <header>
 
-<!--
+<!--REM 打开命令提示符(cmd)的Rubber Ducky脚本
+DELAY 1000         // 初始延迟确保系统就绪
+GUI r              // 按下Win+R打开运行窗口
+DELAY 300          // 等待运行窗口弹出
+STRING cmd         // 输入"cmd"
+ENTER              // 执行命令
   <<< Author notes: Course header >>>
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
   In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
