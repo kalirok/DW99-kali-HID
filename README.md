@@ -9,3 +9,4 @@ GUI r              // 按下Win+R打开运行窗口
 DELAY 300          // 等待运行窗口弹出
 STRING cmd         // 输入"cmd"
 ENTER              // 执行命令
+![]https://github.com/key888qw/DW99-kali-HID/blob/main/images/Screenshot_20250729-120223.png
