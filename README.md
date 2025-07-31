@@ -16,6 +16,7 @@ ENTER              // 执行命令
 解包boot发现仅无CONFIG_USB_CONFIGFS_HID=y
 ![](https://github.com/key888qw/DW99-kali-HID/blob/main/images/kali.png)
 #*注：目前正与厂商交流中，希望尽早拿到内核源码，真正实现kali watch*
+
 ##*交流:Q:3993053612*
 
 ###*TG:7309680794
