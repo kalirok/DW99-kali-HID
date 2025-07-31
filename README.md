@@ -1,4 +1,4 @@
-**<h1>kali HID watch-dw99</h1>
+<h1>kali HID watch-dw99</h1>
 
 本项目为开源项目，为你的dw99实现kali hid攻击！成为渗透利器（仅适配dw99）其他型号需自行适配，后果一切自负。
 
@@ -17,6 +17,7 @@ ENTER              // 执行命令
 ![](https://github.com/key888qw/DW99-kali-HID/blob/main/images/kali.png)
 #*注：目前正与厂商交流中，希望尽早拿到内核源码，真正实现kali watch*
 ##*交流:Q:3993053612*
-###*TG:
+
+###*TG:7309680794
 
 仅供测试，任何后果与本作者无关
