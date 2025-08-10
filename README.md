@@ -1,4 +1,4 @@
-<h1>kali HID watch-dw99</h1>
+<h1>DW99-HID_kernel_suppsod</h1>
 
 本项目为开源项目，为你的dw99实现kali hid攻击！成为渗透利器（仅适配dw99）其他型号需自行适配，后果一切自负。
 
